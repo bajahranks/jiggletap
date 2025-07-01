@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JiggleTap - Web & Mobile App Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/jiggletap_logo_no_text.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <!--<nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/jiggletap_logo2.png" alt="JiggleTap Logo" class="logo-img">
+            </a>
+
+            &lt;!&ndash; Mobile Menu Toggle &ndash;&gt;
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            &lt;!&ndash; Navigation Links &ndash;&gt;
+            <div class="nav-links" id="nav-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>-->
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <!--<div style="display: flex; justify-content: space-between; align-items: center;">
+                <a href="#" class="logo">
+                    <p>JiggleTap</p>
+                </a>
+                <div class="nav-links" id="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>-->
+            <div class="hero-content">
+                <div class="hero-text animate__animated animate__fadeInLeft">
+                    <span class="eyebrow">Welcome to JiggleTap</span>
+                    <h1>Jiggle. Tap. Play.</h1>
+                    <p class="lead">Transforming ideas into beautiful, functional digital solutions. We design and develop web and mobile apps that are as delightful to use as they are robust.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="cta-button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image animate__animated animate__fadeInRight">
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                    <div class="hero-illustration">
+                        <img src="images/jiggletap_logo_no_text.png" alt="Modern Web Design Illustration" class="illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+                <path fill="var(--white)" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <!--<div class="floating-shape shape-3"></div>-->
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Innovative Solutions</h3>
+                                <p>Cutting-edge technology tailored to your needs</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Beautiful Design</h3>
+                                <p>Stunning interfaces that captivate your audience</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-universal-access"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Accessible To All</h3>
+                                <p>User-friendly experiences for everyone</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<img src="images/team_collaboration_illustration.png" alt="Team Collaboration" class="about-img">-->
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">About Us</span>
+                    <h2 class="section-title">The Best Apps Don't Just Work, They Inspire</h2>
+                    <p class="about-description">
+                        At JiggleTap, we specialize in crafting full-stack digital experiences—from cross-platform mobile applications to dynamic web platforms. JiggleTap is a playground of innovation, where every tap, swipe, and scroll is thoughtfully engineered.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <span class="section-subtitle">Contact Us</span>
+                    <form id="contact-form" class="contact-form" action="https://smartforms.dev/submit/686361f7c184545ccc0bdb69" method="POST">
+                        <h3>Send us a message</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone (Optional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (___) ___-____">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <!--<div class="form-shape shape-4"></div>-->
+                    <!--<h2 class="section-title">Let's Build Something Amazing Together</h2>
+                    <p class="contact-description">
+                        Have a project in mind? Want to discuss how we can help your business grow? 
+                        Drop us a message and we'll get back to you within 24 hours.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <a href="mailto:hello@jiggletap.com">hello@jiggletap.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <span>123 Digital Lane, Tech City, TC 12345</span>
+                            </div>
+                        </div>
+                    </div>-->
+                    
+                    <!--<div class="social-links">
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>-->
+                </div>
+                
+                <!--<div class="contact-form-container">
+
+                </div>-->
+            </div>
+        </div>
+        <div class="contact-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologies We Work With</h2>
+                <p class="section-description">We leverage cutting-edge technologies to build powerful solutions</p>
+            </div>
+            <div class="brands-grid">
+                <div class="brand-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="Laravel" loading="lazy">
+                    <span>Laravel</span>
+                </div>
+                <div class="brand-item">
+                    <img src="https://www.drupal.org/files/druplicon-small.png" alt="Drupal" loading="lazy">
+                    <span>Drupal</span>
+                </div>
+                <div class="brand-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Native" loading="lazy">
+                    <span>React Native</span>
+                </div>
+                <div class="brand-item">
+                    <img src="https://seeklogo.com/images/E/expo-logo-FE218B5FF2-seeklogo.com.png" alt="Expo" loading="lazy">
+                    <span>Expo</span>
+                </div>
+                <div class="brand-item">
+                    <img src="https://avatars.githubusercontent.com/u/130286900?s=200&v=4" alt="NativePHP" loading="lazy">
+                    <span>NativePHP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!--<div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/jiggletap_logo2.png" alt="JiggleTap" class="logo-img">
+                    </div>
+                    <p class="footer-text">
+                        Crafting digital experiences that inspire, engage, and drive results. 
+                        Let's build something amazing together.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-links-group">
+                        <h4 class="footer-links-title">Company</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#about" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">Our Work</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-group">
+                        <h4 class="footer-links-title">Services</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#" class="footer-link">Web Development</a></li>
+                            <li><a href="#" class="footer-link">Mobile Apps</a></li>
+                            <li><a href="#" class="footer-link">UI/UX Design</a></li>
+                            <li><a href="#" class="footer-link">Digital Strategy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-group">
+                        <h4 class="footer-links-title">Support</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#contact" class="footer-link">Contact Us</a></li>
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4 class="footer-links-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Subscribe to our newsletter for the latest updates and insights.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+                            <button type="submit" class="newsletter-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>-->
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 JiggleTap. All rights reserved.</p>
+                <!--<div class="footer-legal">
+                    <a href="#" class="footer-legal-link">Privacy Policy</a>
+                    <span class="footer-legal-separator">•</span>
+                    <a href="#" class="footer-legal-link">Terms of Service</a>
+                    <span class="footer-legal-separator">•</span>
+                    <a href="#" class="footer-legal-link">Cookie Policy</a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
