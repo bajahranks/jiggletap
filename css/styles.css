@@ -816,9 +816,6 @@ html {
 }
 
 .feature {
-
-
-
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1698,4 +1695,31 @@ html {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Privacy Policy */
+.m-20 {
+    margin: 20px;
+}
+.my-10 {
+    margin: 10px 0;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-emphasis {
+    font-style: italic;
+}
+.text-underline {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ol {
+    padding-left: 20px;
 }
