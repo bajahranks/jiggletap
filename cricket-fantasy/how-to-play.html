@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Play - Cricket Fantasy</title>
+    <link rel="icon" type="image/svg+xml" href="../images/cricket-fantasy-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -176,13 +177,55 @@
             font-size: 0.9rem;
             border-top: 1px solid #eee;
         }
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header-text {
+            text-align: left;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            line-height: 1.2;
+            color: white;
+        }
+        
+        header img.logo {
+            height: 70px;
+            width: auto;
+            max-width: 100px;
+            object-fit: contain;
+        }
+        
+        header p {
+            margin: 0.25rem 0 0 0;
+            opacity: 0.9;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1><i class="fas fa-cricket"></i> Cricket Fantasy</h1>
-            <p>Your ultimate fantasy cricket experience</p>
+            <div class="header-content">
+                <img src="../images/cricket-fantasy-logo.png" alt="Cricket Fantasy Logo" class="logo">
+                <div class="header-text">
+                    <h1>Cricket Fantasy</h1>
+                    <p>Your ultimate fantasy cricket experience</p>
+                </div>
+            </div>
         </div>
     </header>
     
@@ -190,12 +233,12 @@
         <section class="section">
             <h2>How to Play</h2>
             
-            <div class="card">
+            <div class="card mb-10">
                 <h3><i class="fas fa-trophy icon"></i>Leagues</h3>
                 <p>The first screen you will see after logging in is the leagues screen. Here you can join existing leagues.</p>
             </div>
             
-            <div class="card">
+            <div class="card mb-10">
                 <h3><i class="fas fa-users icon"></i>Teams</h3>
                 <p>Once you have joined a league, you will see the teams screen. The teams screen is made up of three sections:</p>
                 <ol>
@@ -208,7 +251,7 @@
                     performance for the current season and a button to remove the player from your team.</p>
             </div>
             
-            <div class="card">
+            <div class="card mb-10">
                 <h3><i class="fas fa-store icon"></i>Market</h3>
                 <p>Build your dream team by selecting players from the market:</p>
                 <div class="grid">
@@ -240,7 +283,7 @@
                 <p><em>Note:</em> Save button becomes disabled after tournament starts based on game situation.</p>
             </div>
             
-            <div class="card">
+            <div class="card mb-10">
                 <h3><i class="fas fa-list-ol icon"></i>Leaderboard</h3>
                 <p>Track your performance against other players:</p>
                 <div class="grid">
@@ -255,7 +298,7 @@
                 </div>
             </div>
             
-            <div class="card">
+            <div class="card mb-10">
                 <h3><i class="fas fa-user-cog icon"></i>Profile</h3>
                 <p>Manage your account settings:</p>
                 <ul>
