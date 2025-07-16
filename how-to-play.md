@@ -1,4 +1,4 @@
-# Cricket Fantasy
+# T20 Fantasy Cricket
 
 ## How to Play
 
